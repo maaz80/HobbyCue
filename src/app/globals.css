@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.rotate-3d-x {
+  transform: rotateX(30deg);
+}
+
+.rotate-3d-y {
+  transform: rotateY(30deg);
+}
+
+.rotate-3d-z {
+  transform: rotateZ(30deg);
+}
+
+.rotate-3d-x-minus {
+  transform: rotateX(-30deg);
+}
+
+.rotate-3d-y-minus {
+  transform: rotateY(-30deg);
+}
+
+.rotate-3d-z-minus {
+  transform: rotateZ(-30deg);
+}
+.inter {
+  font-family: "Inter", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
